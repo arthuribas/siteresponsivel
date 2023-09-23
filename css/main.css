@@ -1,3 +1,33 @@
-div{
+/* Meu primeiro comentário */
+/* Reset do CSS */
+*{
+    margin: 0; /* Margem */
+    padding: 0; /* Preenchimento */
+}
 
+body{
+    height:  100%; /* altura */
+    width: 100%; /* largura */
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#ff0000 #9400f7);
+    background-repeat: no-repeat;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+.imagem img{
+    width: 170px;
+    border-radius: 200px;
+    margin-top: 30px;
+}
+.name{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: hotpink;
+    font-family: sans-serif;
 }
